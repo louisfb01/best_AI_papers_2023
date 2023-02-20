@@ -29,7 +29,7 @@ Or support me by wearing cool [merch](https://whatsai.myshopify.com/)!
 
 ## The Full List
 - [Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers [1]](#1)
-- [InstructPix2Pix: Learning to Follow Image Editing Instructions [2](#2)
+- [InstructPix2Pix: Learning to Follow Image Editing Instructions [2]](#2)
 - [MusicLM: Generating Music From Text [3]](#3)
 - [Paper references](#references)
 
