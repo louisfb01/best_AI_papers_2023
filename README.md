@@ -29,7 +29,8 @@ Or support me by wearing cool [merch](https://whatsai.myshopify.com/)!
 
 ## The Full List
 - [Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers [1]](#1)
-
+- [InstructPix2Pix: Learning to Follow Image Editing Instructions [2](#2)
+- [MusicLM: Generating Music From Text [3]](#3)
 - [Paper references](#references)
 
 ---
@@ -47,6 +48,33 @@ VALL-E is able to imitate someone’s voice with only a 3-second recording with 
 * [Code](https://github.com/microsoft/unilm)
 
 
+## InstructPix2Pix: Learning to Follow Image Editing Instructions [2]<a name="2"></a>
+We know that AI can generate images; now, let’s edit them!
+
+This new model called InstructPix2Pix does precisely that; it edits an image following a text-based instruction given by the user. Just look at those amazing results… and that is not from OpenAI or google with an infinite budget.
+
+It is a recent publication from Tim Brooks and collaborators at the University of California, including prof. Alexei A. Efros, a well-known figure in the computer vision industry. As you can see, the results are just incredible.
+
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/1nUPDhb.png" width="512"/>](https://youtu.be/EJacROjI84s)
+* Short read: [Image Editing from Text Instructions: InstructPix2Pix](https://www.louisbouchard.ai/instructpix2pix/)
+* Paper: [InstructPix2Pix: Learning to Follow Image Editing Instructions](https://arxiv.org/abs/2211.09800)
+* [Code](https://github.com/timothybrooks/instruct-pix2pix)
+* [Demo](https://huggingface.co/spaces/timbrooks/instruct-pix2pix)
+
+
+## MusicLM: Generating Music From Text [3]<a name="3"></a>
+We recently covered a model able to imitate someone’s voice called VALL-E. Let’s jump a step further in the creative direction with this new AI called MusicLM. MusicLM allows you to generate music from a text description.
+
+Let's not wait any longer and dive right into the results... what you will hear will blow you away!
+
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/7Y1QEJJ.png" width="512"/>](https://youtu.be/jTrYIGxOuKQ)
+* Short read: [Generating music with AI!](https://www.louisbouchard.ai/musiclm/)
+* Paper: [MusicLM: Generating Music From Text](https://arxiv.org/abs/2301.11325)
+* [Listen to some results](https://google-research.github.io/seanet/musiclm/examples/)
 
 ---
 
@@ -62,3 +90,7 @@ VALL-E is able to imitate someone’s voice with only a 3-second recording with 
 ## Paper references<a name="references"></a>
 
 [1] Wang, C., Chen, S., Wu, Y., Zhang, Z., Zhou, L., Liu, S., Chen, Z., Liu, Y., Wang, H., Li, J. and He, L., 2023. Neural Codec Language Models are Zero-Shot Text to Speech Synthesizers. arXiv preprint arXiv:2301.02111.
+
+[2] Brooks et al., 2022: InstructPix2Pix, https://arxiv.org/pdf/2211.09800.pdf
+
+[3] Agostinelli et al., 2023: MusicLM, https://arxiv.org/pdf/2301.11325.pdf
