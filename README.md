@@ -9,12 +9,12 @@ Here's curated list of the latest breakthroughs in AI and Data Science by releas
 
 **The complete reference to each paper is listed at the end of this repository.** *Star this repository to stay up to date and stay tuned for next year!* ⭐️
 
-Maintainer: [louisfb01](https://github.com/louisfb01)
+Maintainer: [louisfb01](https://github.com/louisfb01), also active on [YouTube](https://www.youtube.com/@whatsai) and as a [Podcaster](https://open.spotify.com/show/4rKRJXaXlClkDyInjHkxq3) if you want to see/hear more about AI!
 
 [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40whats_ai)](https://twitter.com/Whats_AI)
 
 
-Subscribe to my [newsletter](http://eepurl.com/huGLT5) - The latest updates in AI explained every week.
+Subscribe to my [newsletter](https://louisbouchard.substack.com/) - The latest updates in AI explained every week.
 
 
 *Feel free to [message me](https://www.louisbouchard.ai/contact/) any interesting paper I may have missed to add to this repository.*
@@ -159,6 +159,9 @@ Can't wait to try it out? The authors mention that the code should be available 
 * [Code](https://github.com/XingangPan/DragGAN)
 
 
+> Check out [the What's AI podcast](https://open.spotify.com/show/4rKRJXaXlClkDyInjHkxq3) for more AI content in the form of interviews with experts in the field! An invited AI expert and I will cover specific topics, sub-fields, and roles related to AI to teach and share knowledge from the people who worked hard to gather it.
+
+
 ## Neuralangelo: High-Fidelity Neural Surface Reconstruction [9]<a name="9"></a>
 Neuralangelo is NVIDIA's latest breakthrough in image-to-3D AI. This new approach builds upon [Instant NeRF](https://www.louisbouchard.ai/nvidia-photos-into-3d-scenes/), enhancing surface quality and providing highly realistic 3D scenes from simple images in just seconds.
 
@@ -197,7 +200,7 @@ We will dive into the world of diffusion models, UNets, and attention, where all
 
 
 >If you would like to read more papers and have a broader view, here is another great repository for you covering 2022:
-[2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022) and feel free to subscribe to my weekly [newsletter](http://eepurl.com/huGLT5) and stay up-to-date with new publications in AI for 2023!
+[2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022) and feel free to subscribe to my weekly [newsletter](https://louisbouchard.substack.com/) and stay up-to-date with new publications in AI for 2023!
 
 
 *Tag me on **Twitter** [@Whats_AI](https://twitter.com/Whats_AI) or **LinkedIn** [@Louis (What's AI) Bouchard](https://www.linkedin.com/in/whats-ai/) if you share the list!*
