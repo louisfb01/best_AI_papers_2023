@@ -21,7 +21,7 @@ Subscribe to my [newsletter](https://louisbouchard.substack.com/) - The latest u
 
 *Tag me on **Twitter** [@Whats_AI](https://twitter.com/Whats_AI) or **LinkedIn** [@Louis (What's AI) Bouchard](https://www.linkedin.com/in/whats-ai/) if you share the list!* And come chat with us in our [Learn AI Together Discord community](https://www.louisbouchard.ai/learn-ai-together/)!
 
-👀 **If you'd like to support my work**, you can check to [Sponsor](https://github.com/sponsors/louisfb01) this repository or support me on [Patreon](https://www.patreon.com/whatsai). You can also support me by following my favorite [daily AI newsletter](https://www.syntheticmind.io/subscribe?ref=EFowuebnlZ) to get frequent updates on new papers like those!
+👀 **If you'd like to support my work**, you can check to [Sponsor](https://github.com/sponsors/louisfb01) this repository or support me on [Patreon](https://www.patreon.com/whatsai).
 
 
 ----
@@ -37,6 +37,11 @@ Subscribe to my [newsletter](https://louisbouchard.substack.com/) - The latest u
 - [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold [8]](#8)
 - [Neuralangelo: High-Fidelity Neural Surface Reconstruction [9]](#9)
 - [TryOnDiffusion: A Tale of Two UNets [10]](#10)
+- [StyleGANEX: StyleGAN-Based Manipulation Beyond Cropped Aligned Faces [11]](#11)
+- [3D-LLM: Injecting the 3D World into Large Language Models [12]](#12)
+- [METAGPT: META PROGRAMMING FOR MULTI-AGENT COLLABORATIVE FRAMEWORK [13]](#13)
+- [Visual Instruction Tuning [14]](#14)
+- [MVDream: Multi-view Diffusion for 3D Generation [15]](#15)
 - [Paper references](#references)
 
 ---
@@ -195,6 +200,75 @@ We will dive into the world of diffusion models, UNets, and attention, where all
 * [More results!](https://tryondiffusion.github.io/)
 
 
+## StyleGANEX: StyleGAN-Based Manipulation Beyond Cropped Aligned Faces [11]<a name="11"></a>
+Let’s talk about the AI models that take your face and can transform it into a funny cartoon, edit facial attributes like changing your hair color, or simply upscale your image to make it more HD. If you’ve been following my articles, you know that most of these applications rely on a single model and its multiple versions called StyleGAN, which I covered numerous times already. StyleGAN is a GAN-based architecture developed by NVIDIA that can take an input and transform it into another one following a specific given style it was trained on. It’s also open source, meaning that everyone can use and build on it, and why all the research papers are using it.
+
+The problem with StyleGAN is that it is limited to cropped and aligned faces at a fixed image resolution from the data it was trained on. Meaning that for images of the real world, you need other approaches to find the face, crop it out, and re-orient it, and it also must have the same image resolution. This is a big problem since you usually want to have high-quality images but training with them would be incredibly long.
+
+So what we typically do is we use the StyleGAN architecture to make the style transfer of our image, and then we use another network to upscale the image to a higher resolution. While this approach works well, it’s definitely not ideal. You need two models instead of one, adding more biases and potential errors, as well as needing to train both and limiting the generalizability capabilities. Fortunately for us, some amazing researchers are working on this limited input image problem and have recently published a new approach at ICCV 2023 called StyleGANEX through some very clever small changes...
+
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/Tjh5fe4.png" width="512"/>](https://youtu.be/Xj20I2zFYi0)
+* Short read: [StyleGANEX: Enhancing Image Manipulation with Dilated Convolutions](https://www.louisbouchard.ai/styleganex/)
+* Paper: [StyleGANEX: StyleGAN-Based Manipulation Beyond Cropped Aligned Faces](https://arxiv.org/abs/2303.06146)
+* [Code!](https://github.com/williamyang1991/StyleGANEX)
+
+
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40whats_ai)](https://twitter.com/Whats_AI)
+*Tag me on **Twitter** [@Whats_AI](https://twitter.com/Whats_AI) or **LinkedIn** [@Louis (What's AI) Bouchard](https://www.linkedin.com/in/whats-ai/) if you share the list!*
+
+
+## 3D-LLM: Injecting the 3D World into Large Language Models [12]<a name="12"></a>
+We've witnessed the remarkable capabilities of large language models (LLMs), but there's been a gap—a missing piece in their understanding of the world around us. They've excelled with text, code, and images, yet they've struggled to truly engage with our reality. That is, until now. Here's a groundbreaking leap forward in the AI landscape: 3D-LLM.
+
+3D-LLM is a novel model that bridges the gap between language and the 3D realm we inhabit. While it doesn't cover the entirety of our world, it's a monumental stride in comprehending the crucial dimensions and text that shape our lives. As you'll discover in the video, 3D-LLM not only perceives the world but also interacts with it. You can pose questions about the environment, seek objects or navigate through spaces, and witness its commonsense reasoning—reminiscent of the awe-inspiring feats we've experienced with ChatGPT.
+
+Even more interestingly, the authors harnessed ChatGPT's prowess to gather data through three distinct methods you'll learn about, creating a comprehensive repository of tasks and examples for each scene used to train the model...
+
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/W5iJ9dU.png" width="512"/>](https://youtu.be/ADlXEUqIt-8)
+* Short read: [Large Language Models Enter the 3D World!](https://www.louisbouchard.ai/3d-llm/)
+* Paper: [3D-LLM: Injecting the 3D World into Large Language Models](https://arxiv.org/abs/2307.12981)
+* [Code!](https://github.com/UMass-Foundation-Model/3D-LLM)
+
+
+## METAGPT: META PROGRAMMING FOR MULTI-AGENT COLLABORATIVE FRAMEWORK [13]<a name="13"></a>
+This work introduces a novel framework for orchestrating large language models to work cohesively while mitigating the risks of hallucinations. This approach combines the power of AI agents with the clarity of standardized operating procedures, ensuring that the agents collaborate effectively and stay aligned with user objectives.
+
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/I7bUULf.png" width="512"/>](https://youtu.be/YtxMderNrzU)
+* Short read: [Mitigating AI Hallucinations: Exploring MetaGPT's Collaborative Framework](https://www.louisbouchard.ai/metagpt/)
+* Paper: [METAGPT: META PROGRAMMING FOR MULTI-AGENT COLLABORATIVE FRAMEWORK](https://arxiv.org/abs/2308.00352)
+* [Code!](https://github.com/geekan/MetaGPT)
+
+> Subscribe to my weekly [newsletter](https://louisbouchard.substack.com/) and stay up-to-date with new publications in AI for 2023!
+
+
+## Visual Instruction Tuning [14]<a name="14"></a>
+Liu et al. used GPT-4 to create a general-purpose language vision model called LLaVA, the first general-purpose model that understands and follows visual and language-based instructions. Yes, they didn't use GPT-4 as the base model, but to train their model! As we will see in the video, GPT-4 was used to generate a large and high-quality dataset to train a new model that understands images. Oh and obviously it not only understands images but also text (there's the multimodality), which means it can answer a wide variety of questions about them! Learn more in the full article or in the video...
+
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/iB4w9vs.png" width="512"/>](https://youtu.be/Pn1B_L_zAwI)
+* Short read: [The First General-Purpose Visual and Language AI: LLaVA](https://www.louisbouchard.ai/llava/)
+* Paper: [Visual Instruction Tuning](https://arxiv.org/abs/2304.08485)
+* [Code!](https://github.com/haotian-liu/LLaVA)
+
+
+## MVDream: Multi-view Diffusion for 3D Generation [15]<a name="15"></a>
+We’ve seen so many new approaches to generating text, then generating images only getting better. Then, we’ve seen other amazing initial works for generating videos and even 3D models out of text. Just imagine the complexity of such a task when all you have is a sentence, and you need to generate something that could look like an object in the real world, with all its details. Well, here’s a new one that is not merely an initial step; it’s a huge step forward in 3D model generation from just text: MVDream!
+
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/s9zdGWC.png" width="512"/>](https://youtu.be/uiVC9J-A_68)
+* Short read: [MVDream: Creating Lifelike 3D Models from Words](https://www.louisbouchard.ai/mvdream/)
+* Paper: [MVDream: Multi-view Diffusion for 3D Generation](https://arxiv.org/abs/2308.16512)
+* [Code!](https://github.com/MV-Dream/MVDream)
+
+
 ---
 
 
@@ -202,7 +276,9 @@ We will dive into the world of diffusion models, UNets, and attention, where all
 [2022: A Year Full of Amazing AI papers- A Review](https://github.com/louisfb01/best_AI_papers_2022) and feel free to subscribe to my weekly [newsletter](https://louisbouchard.substack.com/) and stay up-to-date with new publications in AI for 2023!
 
 
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40whats_ai)](https://twitter.com/Whats_AI)
 *Tag me on **Twitter** [@Whats_AI](https://twitter.com/Whats_AI) or **LinkedIn** [@Louis (What's AI) Bouchard](https://www.linkedin.com/in/whats-ai/) if you share the list!*
+
 
 ---
 
@@ -228,3 +304,12 @@ We will dive into the world of diffusion models, UNets, and attention, where all
 
 [10] Zhu, L., Yang, D., Zhu, T., Reda, F., Chan, W., Saharia, C., Norouzi, M. and Kemelmacher-Shlizerman, I., 2023. TryOnDiffusion: A Tale of Two UNets. In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (pp. 4606-4615), https://arxiv.org/abs/2306.08276
 
+[11] Yang, S., Jiang, L., Liu, Z. and Loy, C.C., 2023. StyleGANEX: StyleGAN-Based Manipulation Beyond Cropped Aligned Faces. arXiv preprint arXiv:2303.06146.
+
+[12] Hong, Y., Zhen, H., Chen, P., Zheng, S., Du, Y., Chen, Z. and Gan, C., 2023. 3d-llm: Injecting the 3d world into large language models. arXiv preprint arXiv:2307.12981.
+
+[13] Hong, S., Zheng, X., Chen, J., Cheng, Y., Zhang, C., Wang, Z., Yau, S.K.S., Lin, Z., Zhou, L., Ran, C. and Xiao, L., 2023. Metagpt: Meta programming for multi-agent collaborative framework. arXiv preprint arXiv:2308.00352.
+
+[14] Liu, H., Li, C., Wu, Q. and Lee, Y.J., 2023. Visual instruction tuning. arXiv preprint arXiv:2304.08485.
+
+[15] Shi, Y., Wang, P., Ye, J., Long, M., Li, K. and Yang, X., 2023. Mvdream: Multi-view diffusion for 3d generation. arXiv preprint arXiv:2308.16512.
