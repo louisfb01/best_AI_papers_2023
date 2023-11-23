@@ -42,6 +42,7 @@ Subscribe to my [newsletter](https://louisbouchard.substack.com/) - The latest u
 - [METAGPT: META PROGRAMMING FOR MULTI-AGENT COLLABORATIVE FRAMEWORK [13]](#13)
 - [Visual Instruction Tuning [14]](#14)
 - [MVDream: Multi-view Diffusion for 3D Generation [15]](#15)
+- [Distil-Whisper: Robust Knowledge Distillation via Large-Scale Pseudo Labelling [16]](#16)
 - [Paper references](#references)
 
 ---
@@ -269,6 +270,18 @@ We’ve seen so many new approaches to generating text, then generating images o
 * [Code!](https://github.com/MV-Dream/MVDream)
 
 
+## Distil-Whisper: Robust Knowledge Distillation via Large-Scale Pseudo Labelling [16]<a name="16"></a>
+Distil-Whisper is an audio transcription model 6 times faster than the original Whisper model, 49% smaller, and keeps 99% of the accuracy. And the best thing about it is that it is fully open-source, and you can use it right now.
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/pwlzm8j.png" width="512"/>](https://youtu.be/SZtHEKyvuug)
+* Short read: [Understanding Distil-Whisper: A Closer Look at AI's Role in Audio Transcription](https://www.louisbouchard.ai/distil-whisper/)
+* Paper: [Distil-Whisper: Robust Knowledge Distillation via Large-Scale Pseudo Labelling](https://arxiv.org/abs/2311.00430)
+* [Code!](https://github.com/MV-Dream/MVDream)
+* [Model!](https://huggingface.co/distil-whisper/distil-large-v2)
+* [Demo!](https://huggingface.co/spaces/Xenova/distil-whisper-web)
+
+
 ---
 
 
@@ -313,3 +326,5 @@ We’ve seen so many new approaches to generating text, then generating images o
 [14] Liu, H., Li, C., Wu, Q. and Lee, Y.J., 2023. Visual instruction tuning. arXiv preprint arXiv:2304.08485.
 
 [15] Shi, Y., Wang, P., Ye, J., Long, M., Li, K. and Yang, X., 2023. Mvdream: Multi-view diffusion for 3d generation. arXiv preprint arXiv:2308.16512.
+
+[16] Gandhi, S., von Platen, P. and Rush, A.M., 2023. Distil-Whisper: Robust Knowledge Distillation via Large-Scale Pseudo Labelling. arXiv preprint arXiv:2311.00430.
