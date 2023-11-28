@@ -43,6 +43,7 @@ Subscribe to my [newsletter](https://louisbouchard.substack.com/) - The latest u
 - [Visual Instruction Tuning [14]](#14)
 - [MVDream: Multi-view Diffusion for 3D Generation [15]](#15)
 - [Distil-Whisper: Robust Knowledge Distillation via Large-Scale Pseudo Labelling [16]](#16)
+- [Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets[17]](#17)
 - [Paper references](#references)
 
 ---
@@ -282,6 +283,17 @@ Distil-Whisper is an audio transcription model 6 times faster than the original 
 * [Demo!](https://huggingface.co/spaces/Xenova/distil-whisper-web)
 
 
+## Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets [17]<a name="17"></a>
+In this video, we dive into Stable Video Diffusion (SVD), exploring how this innovative technology from Stability AI is revolutionizing AI-driven video creation. Understand the core principles of diffusion models and their applications in text-to-video and multi-view synthesis, ideal for AI and digital media enthusiasts eager to grasp the future of video generation.
+
+* Short Video Explanation:<br/>
+[<img src="https://imgur.com/2GUlDQA.png" width="512"/>](https://youtu.be/TVcE1Ic05lw)
+* Short read: [The Future of Video Generation: Deep Dive into Stable Video Diffusion](https://www.louisbouchard.ai/stable-video-diffusion/)
+* Paper: [Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets](https://static1.squarespace.com/static/6213c340453c3f502425776e/t/655ce779b9d47d342a93c890/1700587395994/stable_video_diffusion.pdf)
+* [Code!](https://github.com/Stability-AI/generative-models)
+* [Model!](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt)
+
+
 ---
 
 
@@ -328,3 +340,5 @@ Distil-Whisper is an audio transcription model 6 times faster than the original 
 [15] Shi, Y., Wang, P., Ye, J., Long, M., Li, K. and Yang, X., 2023. Mvdream: Multi-view diffusion for 3d generation. arXiv preprint arXiv:2308.16512.
 
 [16] Gandhi, S., von Platen, P. and Rush, A.M., 2023. Distil-Whisper: Robust Knowledge Distillation via Large-Scale Pseudo Labelling. arXiv preprint arXiv:2311.00430.
+
+[17] Blattmann et al., 2023: Stable Video Diffusion. https://static1.squarespace.com/static/6213c340453c3f502425776e/t/655ce779b9d47d342a93c890/1700587395994/stable_video_diffusion.pdf
