@@ -1,4 +1,4 @@
-# 2023: The best AI papers - A Review 🚀 [Work in progress ⏳]
+# 2023: The best AI papers - A Review 🚀
 ## A curated list of the latest breakthroughs in AI by release date with a clear video explanation, link to a more in-depth article, and code.
 
 With the creation of a whole new field called "Generative AI", whether you like the term or not, research hasn't slowed its frenetic pace, especially the industry, which has seen its biggest boom in implementation of AI technologies ever. Artificial intelligence and our understanding of the human brain and its link to AI are constantly evolving, showing promising applications improving our life's quality in the near future. Still, we ought to be careful with which technology we choose to apply.
@@ -22,6 +22,10 @@ Subscribe to my [newsletter](https://louisbouchard.substack.com/) - The latest u
 *Tag me on **Twitter** [@Whats_AI](https://twitter.com/Whats_AI) or **LinkedIn** [@Louis (What's AI) Bouchard](https://www.linkedin.com/in/whats-ai/) if you share the list!* And come chat with us in our [Learn AI Together Discord community](https://www.louisbouchard.ai/learn-ai-together/)!
 
 👀 **If you'd like to support my work**, you can check to [Sponsor](https://github.com/sponsors/louisfb01) this repository or support me on [Patreon](https://www.patreon.com/whatsai).
+
+### Watch a complete 2023 rewind in 13 minutes
+
+[<img src="https://imgur.com/U69O8qQ.png" width="512"/>](https://youtu.be/J7H6kobw-lo)
 
 
 ----
